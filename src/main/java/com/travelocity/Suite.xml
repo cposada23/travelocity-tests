@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Travelocity test cases" verbose="1">
+    <test name="Travelocity Tests">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.travelocity.tests.TravelocityTest"></class>
+        </classes>
+    </test>
+</suite>
+
+<!--<suite name="My test suite" verbose="1" thread-count="5" parallel="methods">-->
+<!--<parameter name="browserEnum" value="remoteFirefox" />-->
+<!--<test name="My first test">-->
+<!--    <classes>-->
+<!--        <class name="com.automation.training.tests.WikiTests"></class>-->
+<!--    </classes>-->
+<!--</test>-->
+<!--</suite>-->
